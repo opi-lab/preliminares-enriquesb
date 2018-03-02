@@ -13,8 +13,6 @@ La línea de código `plot(x[1:3],y[1:3],'g--')` dibuja una línea discontinua q
 El resultado de este código es la imagen ``space_points.png`` en la carpeta ``resultados``.
 
 
-
-
 ## Capítulo 1 - Ejercicio 1
 
 Para resolver este ejercicio se importó el paquete de procesamiento de imágenes multidimensionales ``ndimage`` de la biblioteca ``scipy`` para aplicar el filtro gaussiano.
@@ -23,24 +21,9 @@ Primero que todo se leyó la imagen ``hotel.jpg``  con la cual se trabajó, y se
 
 Con el comando ``contour`` se visualizan los iso contornos de las imágenes, tanto de la original como de las imágenes resultantes de los filtrados. Para una mejor visualización se quitaron los ejes.
 
-![alt text](https://imgur.com/z6v4XTK)
+Las imágenes resultantes están en la carpeta ``resultados``. Se observa que a medida que aumenta el valor de la desviación estándar hay menos regiones.  Esto se debe a que cuando el suavizado es más fuerte se pierden los detalles y contornos de la imagen, lo que provoca que hayan grandes regiones uniformes.
+
+## Capítulo 1 - Ejercicio 2
 
 
-Esta primera tarea tiene que ver con familiarizarse con Python para el manejo básico de imágenes y su 
-procesamiento.
 
-Deberán subir un archivo ``README.md`` (pueden usar este para iniciar) en dónde escriban la documentación del código que están adjuntando. En particular deben cumplir con lo siguiente:
-
-1. Por lo menos dos programas en dónde utilicen código de ejemplo del capítulo 1 y modifiquen parámetros, cambien imágenes, etc. Las imágenes o archivos binarios que utilicen deben subirlas al repositorio también en una carpeta llamada ``data``.
-2. Deben resolver por lo menos los primeros dos ejercicios de final del capítulo. Deben llevar los nombres ``ch01-ex1.py`` y ``ch01-ex2.py``. 
-3. Bonificación por cualquier ejercicio o programa adicional.
-
-Ejemplo de la estructura del repositorio a subir
-
-	preliminares-JuanPerez/
-	.
-	├── README.md
-	├── ch01-ex1.py
-	├── ch01-ex2.py
-	├── data
-	│   ├── image.jpg
