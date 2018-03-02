@@ -1,6 +1,6 @@
 # Basic Image Handling and Processing
 
-# Ejemplo 1 (ch0_ejemplo1.py)
+## Ejemplo 1 (ch0_ejemplo1.py)
 
 En este ejemplo se ponen a prueba los comandos que permiten graficar puntos y líneas sobre una imagen.
 
@@ -15,7 +15,15 @@ El resultado de este código es la imagen ``space_points.png`` en la carpeta ``r
 
 
 
-# Capítulo 1 - Ejercicio 1
+## Capítulo 1 - Ejercicio 1
+
+Para resolver este ejercicio se importó el paquete de procesamiento de imágenes multidimensionales ``ndimage`` de la biblioteca ``scipy`` para aplicar el filtro gaussiano.
+
+Primero que todo se leyó la imagen ``hotel.jpg``  con la cual se trabajó, y se convirtió a escala de grises. La imagen resultante se filtró tres veces con el filtro gaussiano, cada vez con una desviación estándar de distinto valor.
+
+Con el comando ``contour`` se visualizan los iso contornos de las imágenes, tanto de la original como de las imágenes resultantes de los filtrados. Para una mejor visualización se quitaron los ejes.
+
+![alt text](https://imgur.com/z6v4XTK)
 
 
 Esta primera tarea tiene que ver con familiarizarse con Python para el manejo básico de imágenes y su 
