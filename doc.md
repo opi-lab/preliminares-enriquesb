@@ -1,5 +1,23 @@
 # Basic Image Handling and Processing
 
+# Ejemplo 1 (ch0_ejemplo1.py)
+
+En este ejemplo se ponen a prueba los comandos que permiten graficar puntos y líneas sobre una imagen.
+
+El código del ejemplo inicia leyendo la imagen space.jpg que se encuentra en la carpeta data, y se almacena en la variable `im`. A continuación, se muestra la imagen con el comando `imshow`.
+
+Luego se definen las coordenadas de cinco puntos que se quieren graficar en sobre la imagen im en dos vectores, `x` y `y`, que guardan las coordenadas horizontales y verticales respectivamente. Al utilizar el comando `plot`, se observa que estos puntos no se grafican en otra ventana. En el comando plot se puede ingresar, además de las coordenadas, parámetros para personalizar la apariencia de los marcadores. En este caso los marcadores tienen forma circular y son de color amarillo y se consigue con el tercer parámetro de entrada de la línea `plot(x,y,'yo')`.
+
+La línea de código `plot(x[1:3],y[1:3],'g--')` dibuja una línea discontinua que conecta el segundo y tercer punto definido anteriormente. Por último, se coloca un título a la gráfica.
+
+El resultado de este código es la imagen ``space_points.png`` en la carpeta ``resultados``.
+
+
+
+
+# Capítulo 1 - Ejercicio 1
+
+
 Esta primera tarea tiene que ver con familiarizarse con Python para el manejo básico de imágenes y su 
 procesamiento.
 
