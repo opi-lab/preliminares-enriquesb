@@ -8,6 +8,7 @@ for increasing values of σ. What happens? Can you explain why?
 from PIL import Image
 from numpy import *
 from scipy.ndimage import filters
+from pylab import *
 
 im = array(Image.open('data\hotel.jpg').convert('L'))
 im2 = filters.gaussian_filter(im,5)
