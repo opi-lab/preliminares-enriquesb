@@ -31,6 +31,9 @@ Las imágenes resultantes están en la carpeta ``resultados``. La imagen ``ex1_1
 
 Se observa que a medida que aumenta el valor de la desviación estándar hay menos regiones.  Esto se debe a que cuando el suavizado es más fuerte se pierden los detalles y contornos de la imagen, lo que provoca que hayan grandes regiones uniformes.
 
+## Capítulo 1 - Ejercicio 2 (ch0-ex2.py)
+
+En este ejercicio se realiza una opereación con 'unsharp masking' utilizando la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano.
 
 
 
