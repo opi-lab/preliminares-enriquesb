@@ -33,7 +33,7 @@ Se observa que a medida que aumenta el valor de la desviación estándar hay men
 
 ## Capítulo 1 - Ejercicio 2 (ch0-ex2.py)
 
-En este ejercicio se realiza una opereación con 'unsharp masking' utilizando la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano.
+En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Para esto se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano.
 
 
 
