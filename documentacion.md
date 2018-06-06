@@ -26,14 +26,14 @@ Primero que todo se leyó la imagen ``hotel.jpg``  con la cual se trabajó, y se
 
 Con el comando ``contour`` se visualizan los iso contornos de las imágenes, tanto de la original como de las imágenes resultantes de los filtrados. Para una mejor visualización se quitaron los ejes.
 
-Las imágenes resultantes están en la carpeta ``resultados``. La imagen ``ex1_1.png`` muestra los contornos de la imagen original. Las imágenes ``ex1_2.png``,``ex1_3.png`` y ``ex1_4.png``  muestran los contornos de los resultados de filtrado con desviación estándar 5, 10 y 15 respectivamente.
+Las imágenes resultantes están en la carpeta ``resultados/ch01_ex1``. La imagen ``ex1_1.png`` muestra los contornos de la imagen original. Las imágenes ``ex1_2.png``,``ex1_3.png`` y ``ex1_4.png``  muestran los contornos de los resultados de filtrado con desviación estándar 5, 10 y 15 respectivamente.
 
 
 Se observa que a medida que aumenta el valor de la desviación estándar hay menos regiones.  Esto se debe a que cuando el suavizado es más fuerte se pierden los detalles y contornos de la imagen, lo que provoca que hayan grandes regiones uniformes.
 
 ## Capítulo 1 - Ejercicio 2 (ch01-ex2.py)
 
-En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Para esto se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano.
+En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Para esto se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano. En la carpeta ``resultados/ch01_ex2`` se encuentran los resultados tanto para la operación en escala de grises como a color, con los nombres ``ch01-ex2_gray.png`` y ``ch01-ex2_color.png`` respectivamente.
 
 
 
