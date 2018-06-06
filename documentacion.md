@@ -33,7 +33,7 @@ Se observa que a medida que aumenta el valor de la desviación estándar hay men
 
 ## Capítulo 1 - Ejercicio 2 (ch01-ex2.py)
 
-En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Para esto se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano. En la carpeta ``resultados/ch01_ex2`` se encuentran los resultados tanto para la operación en escala de grises como a color, con los nombres ``ch01-ex2_gray.png`` y ``ch01-ex2_color.png`` respectivamente.
+En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Cuando se realiza la operación en escala de grises, la imagen se difumina y esta versión se resta a la imagen original para obtener los detalles de la imágen. Luego los detalles se suman a la imagen en escala de grises original y el resultado es una imagen con detalles más definidos. Cuando la operación con 'unsharp masking' se realiza en una imagen a color, se aplica el mismo procedimiento que en escala de grises a cada canal de color. En este código se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano. En la carpeta ``resultados/ch01_ex2`` se encuentran los resultados tanto para la operación en escala de grises como a color, con los nombres ``ch01-ex2_gray.png`` y ``ch01-ex2_color.png`` respectivamente.
 
 
 
