@@ -18,7 +18,7 @@ El primer paso fue cargar la imagen space.jpg con el comando ``im = array(Image.
 
 El resultado de este código es la imagen ``space_contours.npg`` que se encuentra en la carpeta ``resultados``.
 
-## Capítulo 1 - Ejercicio 1 (ch0-ex1.py)
+## Capítulo 1 - Ejercicio 1 (ch01-ex1.py)
 
 Para resolver este ejercicio se importó el paquete de procesamiento de imágenes multidimensionales ``ndimage`` de la biblioteca ``scipy`` para aplicar el filtro gaussiano.
 
@@ -31,7 +31,7 @@ Las imágenes resultantes están en la carpeta ``resultados``. La imagen ``ex1_1
 
 Se observa que a medida que aumenta el valor de la desviación estándar hay menos regiones.  Esto se debe a que cuando el suavizado es más fuerte se pierden los detalles y contornos de la imagen, lo que provoca que hayan grandes regiones uniformes.
 
-## Capítulo 1 - Ejercicio 2 (ch0-ex2.py)
+## Capítulo 1 - Ejercicio 2 (ch01-ex2.py)
 
 En este ejercicio se realiza una opereación con 'unsharp masking' a una imagen en esacala de grises y también a color. Para esto se utilizó la librería numpy para trabajar con matrices y la librería scipy para aplicar un filtro gaussiano.
 
