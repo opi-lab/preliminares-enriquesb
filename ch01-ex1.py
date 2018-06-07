@@ -10,7 +10,7 @@ from numpy import *
 from scipy.ndimage import filters
 from pylab import *
 
-im = array(Image.open('data\hotel.jpg').convert('L'))
+im = array(Image.open(os.path.abspath("data\hotel.jpg")).convert('L'))
 im2 = filters.gaussian_filter(im,5)
 im3 = filters.gaussian_filter(im,10)
 im4 = filters.gaussian_filter(im,15)
