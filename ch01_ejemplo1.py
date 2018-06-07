@@ -5,9 +5,10 @@ Graficar puntos y lineas sobre una imagen
 
 from PIL import Image
 from pylab import *
+import os
 
 # read image to array
-im = array(Image.open('data\space.jpg'))
+im = array(Image.open(os.path.abspath("data\space.jpg")))
 
 # plot the image
 imshow(im)
