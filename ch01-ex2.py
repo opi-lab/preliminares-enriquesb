@@ -9,6 +9,7 @@ from PIL import Image
 from numpy import *
 from scipy.ndimage import filters
 from pylab import *
+import os
 
 
 im_gray = array(Image.open(os.path.abspath("data\goldengate.jpg")).convert('L'))
