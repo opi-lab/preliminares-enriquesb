@@ -11,8 +11,8 @@ from scipy.ndimage import filters
 from pylab import *
 
 
-im_gray = array(Image.open('data\goldengate.jpg').convert('L'))
-im_rgb = array(Image.open('data\goldengate.jpg'))
+im_gray = array(Image.open(os.path.abspath("data\goldengate.jpg")).convert('L'))
+im_rgb = array(Image.open(os.path.abspath("data\goldengate.jpg")))
 
 
 # grayscale image
