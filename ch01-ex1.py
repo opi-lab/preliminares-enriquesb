@@ -9,6 +9,7 @@ from PIL import Image
 from numpy import *
 from scipy.ndimage import filters
 from pylab import *
+import os
 
 im = array(Image.open(os.path.abspath("data\hotel.jpg")).convert('L'))
 im2 = filters.gaussian_filter(im,5)
